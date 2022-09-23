@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <ul class="main-header__list">
+        <li class="main-header__item main-header__item--logo">
+          <img class="logo" src="./images/logo-horizontal.svg" alt="" />
+        </li>
+        <li class="main-header__item">
+          <button class="lang">
+            <img class="lang__icon" src="./images/translate.svg" alt="" /><span
+              class="lang__text"
+              >EN</span
+            >
+          </button>
+        </li>
+        <li class="main-header__item">
+          <a class="button button--red header__button" href="#">
+            <img class="button__icon" src="./images/lock.svg" alt="" />
+            <span class="button__text header__button-text">Donate now</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <span class="hide-shadow"></span>
+    <main>
+      <header class="sub-header">
+        <ul class="sub-header__list">
+          <li
+            class="sub-header__item sub-header__item--hover sub-header__item--first-item"
+          >
+            Our Work
+          </li>
+          <li class="sub-header__item sub-header__item--hover">
+            Support Wikipedia
+          </li>
+          <li class="sub-header__item sub-header__item--hover">Research</li>
+          <li class="sub-header__item sub-header__item--hover">Advocacy</li>
+          <li class="sub-header__item sub-header__item--hover">Technology</li>
+          <li class="sub-header__item sub-header__item--hover">News</li>
+          <li class="sub-header__item sub-header__item--hover">Participate</li>
+          <li class="sub-header__item sub-header__item--hover">About</li>
+          <li class="sub-header__item sub-header__item--last-item">
+            <div class="search">
+              <input class="search__input" placeholder="Search Site" />
+              <img class="search__icon" src="./images/search.svg" alt="" />
+            </div>
+          </li>
+        </ul>
+      </header>
+      <section class="hero">
+        <div class="hero__text-wrapper">
+          <p class="hero__text">
+            Imagine a world in which every single human being can freely share
+            in the sum of all knowledge.
+          </p>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__top">
+          <p class="about__section about__text">
+            The nonprofit Wikimedia Foundation provides the essential
+            infrastructure for free knowledge. We host Wikipedia, the free
+            online encyclopedia, created, edited, and verified by volunteers
+            around the world, as well as many other vital community projects.
+            All of which is made possible thanks to donations from individuals
+            like you. We welcome anyone who shares our vision to join us in
+            collecting and sharing knowledge that fully represents human
+            diversity.
+          </p>
+          <div class="about__section">
+            <h3 class="about__header">Protect and sustain Wikipedia</h3>
+            <a class="button button--purple" href="#">
+              <img class="button__icon" src="./images/lock.svg" alt="" />
+              <span class="button__text">Donate now</span>
+            </a>
+            <p class="about__small-text">Donations are secure</p>
+          </div>
+        </div>
+        <div class="language">
+          <ul class="language__list">
+            <li class="language__item language__item--first">
+              <a href="#" aria-disabled="true"
+                ><span class="language__text language__text--selected"
+                  >English</span
+                ></a
+              >
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">العربية</span></a>
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">中文</span></a>
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">Français</span></a>
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">Русский</span></a>
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">Español</span></a>
+            </li>
+            <li class="language__item">
+              <a href="#"><span class="language__text">Deutsch</span></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pledge">
+        <div>
+          <h1 class="pledge__header">1</h1>
+          <h2 class="pledge__sub-header">
+            Wikimedia <br />
+            projects belong to everyone
+          </h2>
+          <p class="pledge__text">
+            You made it. It is yours to use. For free. That means you can use
+            it, adapt it, or share what you find on Wikimedia sites. Just do not
+            write your own bio, or copy/paste it into your homework.
+          </p>
+        </div>
+        <div>
+          <h1 class="pledge__header">2</h1>
+          <h2 class="pledge__sub-header">We respect your data and privacy</h2>
+          <p class="pledge__text">
+            We do not sell your email address or any of your personal
+            information to third parties. More information about our privacy
+            practices are available at the Wikimedia Foundation privacy policy,
+            donor privacy policy, and data retention guidelines.
+          </p>
+        </div>
+        <div>
+          <h1 class="pledge__header">3</h1>
+          <h2 class="pledge__sub-header">
+            People like you keep Wikipedia accurate
+          </h2>
+          <p class="pledge__text">
+            Readers verify the facts. Articles are collaboratively created and
+            edited by a community of volunteers using reliable sources, so no
+            single person or company owns a Wikipedia article. The Wikimedia
+            Foundation does not write or edit, but you and everyone you know can
+            help.
+          </p>
+        </div>
+        <div>
+          <h1 class="pledge__header">4</h1>
+          <h2 class="pledge__sub-header">Not all wikis are Wikimedia</h2>
+          <p class="pledge__text">
+            The word “wiki” refers to a website built using collaborative
+            editing software. Projects with no past or existing affiliation with
+            Wikipedia or the Wikimedia Foundation, such as Wikileaks and
+            wikiHow, also use the term. Although these sites also use “wiki” in
+            their name, they have nothing to do with Wikimedia.
+          </p>
+        </div>
+      </section>
+      <section class="news">
+        <div class="stats news__section">
+          <div class="stats__item">
+            <h1 class="stats__numbers">300,000+</h1>
+            <p class="stats__text">
+              editors contribute to Wikimedia projects every month
+            </p>
+            <a href="#" class="stats__link"
+              ><img
+                class="stats__twitter-icon"
+                src="./images/twitterblue.svg"
+                alt=""
+              /><span>Tweet this</span></a
+            >
+          </div>
+          <div class="stats__item">
+            <h1 class="stats__numbers">82+ million</h1>
+            <p class="stats__text">media files on Wikimedia Commons</p>
+            <a href="#" class="stats__link"
+              ><img
+                class="stats__twitter-icon"
+                src="./images/twitterblue.svg"
+                alt=""
+              /><span>Tweet this</span></a
+            >
+          </div>
+          <div class="stats__item">
+            <h1 class="stats__numbers">1.8+ billion</h1>
+            <p class="stats__text">
+              unique devices access Wikimedia projects every month
+            </p>
+            <a href="#" class="stats__link"
+              ><img
+                class="stats__twitter-icon"
+                src="./images/twitterblue.svg"
+                alt=""
+              /><span>Tweet this</span></a
+            >
+          </div>
+        </div>
+        <div class="articles news__section">
+          <div class="articles__item articles__item--hover">
+            <img
+              class="articles__image"
+              src="./images/conference.jpeg"
+              alt=""
+            />
+            <div class="articles__details">
+              <h3 class="articles__header">Research</h3>
+              <p class="articles__text">
+                We conduct our own research and partner with researchers
+                worldwide to address change in society and technology.
+              </p>
+              <a href="#" class="articles__link articles__link--arrow"
+                >More about the research</a
+              >
+            </div>
+          </div>
+          <div class="articles__item articles__item--hover">
+            <img class="articles__image" src="./images/server.png" alt="" />
+            <div class="articles__details">
+              <h3 class="articles__header">Technology</h3>
+              <p class="articles__text">
+                From site reliability to machine learning, our open-source
+                technology makes Wikipedia faster, more reliable, and more
+                accessible worldwide.
+              </p>
+              <a href="#" class="articles__link articles__link--arrow"
+                >More about the Technology</a
+              >
+            </div>
+          </div>
+          <div class="articles__item articles__item--hover">
+            <img class="articles__image" src="./images/stop.jpeg" alt="" />
+            <div class="articles__details">
+              <h3 class="articles__header">Advocacy</h3>
+              <p class="articles__text">
+                We conduct our own research and partner with researchers
+                worldwide to address change in society and technology.
+              </p>
+              <a href="#" class="articles__link articles__link--arrow"
+                >More about the Technology</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="projects news__section">
+          <div class="projects__item">
+            <span class="projects__small-text">Projects</span>
+            <h3 class="projects__title">
+              Collaborative projects are the core of the Wikimedia movement.
+            </h3>
+            <p class="projects__text">
+              Our volunteers build tools, share photos, write articles, and are
+              working to connect all the knowledge that exists.
+            </p>
+            <a href="#" class="projects__link">See all projects</a>
+          </div>
+          <div class="projects__item projects__item--second">
+            <img
+              class="projects__image"
+              src="./images/Wikipedia.png"
+              alt=""
+            />
+            <h3 class="projects__title">Wikipedia</h3>
+            <p class="projects__text">
+              Free encyclopedia written in 300 languages by volunteers around
+              the world.
+            </p>
+            <a href="#" class="projects__link">See all projects</a>
+          </div>
+          <div class="projects__item projects__item--second">
+            <img
+              class="projects__image"
+              src="./images/commons.png"
+              alt=""
+            />
+            <h3 class="projects__title">Wikimedia Commons</h3>
+            <p class="projects__text">
+              The world’s largest free-to-use-library of illustrations, photos,
+              drawings, videos and music.
+            </p>
+            <a href="#" class="projects__link">Visit Wikimedia Commons</a>
+          </div>
+        </div>
+      </section>
+      <section class="updates">
+        <h4 class="section-title updates__title">News — Actualités</h4>
+        <h2 class="section-header">See what we have been up to</h2>
+        <ul class="updates__list">
+          <li class="updates__item">
+            <div class="updates__details">
+              <a href="#" class="updates__subheader updates__subheader--hover">
+                A procura pelo Som de Todo o Conhecimento Humano tem início:
+                Concurso global visa identificar o primeiro logotipo sonoro para
+                projetos da Wikipedia e Wikimedia</a
+              >
+              <div class="updates__tags">
+                <a href="#" class="tag updates__tag">Communications</a>
+              </div>
+              <p class="updates__text">
+                This post is also available in: English, اَلْعَرَبِيَّةُ, Bahasa
+                Indonesia, Deutsche, & 한국어. 13 de setembro de 2022 — Hoje, a
+                Fundação Wikimedia, a organização sem fins lucrativos que apoia
+                os projetos da Wikipédia e da Wikimedia, está lançando O Som de
+                Todo o Conhecimento Humano, um concurso global para encontrar um
+                logotipo sonoro para os projetos da Wikipédia e….
+              </p>
+              <span class="updates__date">14 September 2022</span>
+              <span class="updates__author"
+                >By
+                <a href="#" class="updates__author-link"
+                  >Wikimedia Foundation</a
+                >
+              </span>
+              <a href="#" class="updates__link updates__link--arrow"
+                >Read more</a
+              >
+            </div>
+            <div class="updates__image-wrapper">
+              <img
+                src="./images/Sound-Logo.png"
+                alt=""
+                class="updates__image"
+              />
+            </div>
+          </li>
+          <li class="updates__item">
+            <div class="updates__details">
+              <a href="#" class="updates__subheader updates__subheader--hover">
+                The search for The Sound of All Human Knowledge begins: Global
+                contest aims to identify the first ever sound logo for Wikipedia
+                and Wikimedia projects</a
+              >
+              <div class="updates__tags">
+                <a href="#" class="tag updates__tag">Communications</a>
+                <a href="#" class="tag updates__tag">Community</a>
+                <a href="#" class="tag updates__tag">Community Engagement</a>
+                <a href="#" class="tag updates__tag">Foundation</a>
+                <a href="#" class="tag updates__tag">Technology</a>
+              </div>
+
+              <p class="updates__text">
+                This post is also available in: اَلْعَرَبِيَّةُ, 中文, Bahasa
+                Indonesia, Deutsche, Português, & 한국어. 13 September 2022 —
+                Today, the Wikimedia Foundation, the nonprofit that supports
+                Wikipedia and Wikimedia projects, is launching The Sound of All
+                Human Knowledge, a global contest to find a sound logo for
+                Wikipedia and Wikimedia projects. Submissions are open from….
+              </p>
+              <span class="updates__date">13 September 2022</span>
+              <span class="updates__author"
+                >By
+                <a href="#" class="updates__author-link"
+                  >Wikimedia Foundation</a
+                >
+              </span>
+              <a href="#" class="updates__link updates__link--arrow"
+                >Read more</a
+              >
+            </div>
+            <div class="updates__image-wrapper">
+              <img
+                src="./images/Sound-Logo.png"
+                alt=""
+                class="updates__image"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="profile">
+        <h4 class="section-title profile__title">Profiles</h4>
+        <h2 class="section-header profile__header">
+          Wikimedians are heroes of free knowledge.
+        </h2>
+        <ul class="profile__list">
+          <li class="profile__item">
+            <a href="#" class="profile__item-link profile__item-link--hover">
+              <img
+                class="profile__image"
+                src="./images/profile-1.webp"
+                alt=""
+              />
+              <p href="#" class="profile__name">Pranayraj Vangari</p>
+              <p class="profile__info">
+                Editor since 2013, Wikimedia community
+              </p>
+            </a>
+          </li>
+          <li class="profile__item">
+            <a href="#" class="profile__item-link profile__item-link--hover">
+              <img
+                class="profile__image"
+                src="./images/profile-2.webp"
+                alt=""
+              />
+              <p href="#" class="profile__name">Christine Meyer</p>
+              <p class="profile__info">
+                Editor since 2007, Wikimedia community
+              </p>
+            </a>
+          </li>
+          <li class="profile__item">
+            <a href="#" class="profile__item-link profile__item-link--hover">
+              <img
+                class="profile__image"
+                src="./images/profile-3.webp"
+                alt=""
+              />
+              <p href="#" class="profile__name">May Hachem</p>
+              <p class="profile__info">
+                Editor since 2013, Wikimedia community
+              </p>
+            </a>
+          </li>
+        </ul>
+        <p class="profile__footer">
+          Throughout history, knowledge has been controlled by a powerful few.
+          <a href="#" class="profile__footer-link profile__footer-link--hover"
+            >Wikipedia needs knowledge from all languages and cultures</a
+          >. The internet has become the default for accessing
+          information—women, people of color, and the global south remain
+          underrepresented. We invite you to help correct history.
+        </p>
+        <button class="button button--purple profile__button">
+          Join the Movement
+        </button>
+      </section>
+      <section class="donate">
+        <div class="donate__wrapper">
+          <img
+            src="./images/ArtAndFeminism.jpeg"
+            alt=""
+            class="donate__image"
+          />
+          <div class="donate__details">
+            <h2 class="donate__header">
+              Help us unlock the world’s knowledge.
+            </h2>
+            <p class="donate__text">
+              As a nonprofit, Wikipedia and our related free knowledge projects
+              are powered primarily through donations.
+            </p>
+            <button class="button button--red donate__button">
+              <img class="button__icon" src="./images/lock.svg" alt="" />
+              <span class="button__text">Donate now</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="connect">
+        <h2 class="section-title connect__title">Connect — Conecta</h2>
+        <h4 class="section-header connect__header">
+          Stay up-to-date on our work.
+        </h4>
+        <ul class="connect__list">
+          <li class="connect__card connect__card--gray">
+            <img src="./images/msg.svg" class="connect__icon" alt="" />
+            <h5 class="connect__card-header">Get email updates</h5>
+            <p class="connect__message">
+              Subscribe to news about ongoing projects and initiatives
+            </p>
+            <form action="post" class="subscribe connect__form">
+              <input
+                type="text"
+                placeholder="Email address"
+                class="subscribe__input"
+              />
+              <button class="button button--purple">Subscribe</button>
+            </form>
+            <p class="connect__small-text">
+              This mailing list is powered by MailChimp. The Wikimedia
+              Foundation will handle your personal information in accordance
+              with this site’s privacy policy.
+            </p>
+          </li>
+          <li class="connect__card">
+            <img src="./images/account.svg" class="connect__icon" alt="" />
+            <h5 class="connect__card-header">Contact a human</h5>
+            <p class="connect__message">
+              Questions about the Wikimedia Foundation or our projects? Get in
+              touch with our team.
+            </p>
+            <a href="#" class="connect__link">Contact</a>
+            <h6 class="connect__small-header">Follow</h6>
+            <div class="connect__socials">
+              <div class="connect__social-section">
+                <span class="connect__social-item connect__social-item--last"
+                  ><img
+                    class="connect__social-icon"
+                    src="./images/facebookblue.svg"
+                    alt=""
+                  />
+                  Facebook</span
+                >
+                <span class="connect__social-item"
+                  ><img
+                    class="connect__social-icon"
+                    src="./images/twitterblue.svg"
+                    alt=""
+                  />
+                  Twitter</span
+                >
+              </div>
+              <div class="connect__social-section">
+                <span class="connect__social-item"
+                  ><img
+                    class="connect__social-icon"
+                    src="./images/instagramblue.svg"
+                    alt=""
+                  />
+                  Instagram</span
+                >
+                <span class="connect__social-item connect__social-item--last"
+                  ><img
+                    class="connect__social-icon connect__social-icon--last"
+                    src="./images/linkedinblue.svg"
+                    alt=""
+                  />
+                  LinkedIn</span
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="credits">
+        <h4 class="section-header credits__header">Photo credits</h4>
+        <ul class="credits__list">
+          <li class="credits__item">
+            <img
+              src="./images/Sound-Logo.png"
+              alt=""
+              class="credits__image"
+            />
+            <div class="credits__details">
+              <p class="credits__text">
+                Wikimedia Sound Logo press release image-05
+              </p>
+              <p class="credits__text">Wikimedia Foundation</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 4.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/profile-4.webp" alt="" class="credits__image" />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >Sam Oye - Wiki Indaba 2017</a
+              >
+              <p class="credits__text">Zachary McCune/Wikimedia</p>
+              <p class="credits__text">Foundation</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 4.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/profile-3.webp" alt="" class="credits__image" />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >May Mohamed Hisham Hashem</a
+              >
+              <p class="credits__text">Ruby Mizrahi</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 4.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/profile-5.svg" alt="" class="credits__image" />
+            <div class="credits__details">
+              <p class="credits__text">foundation-web-banner-1</p>
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/profile-6.webp" alt="" class="credits__image" />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >Wikimedia Conference 2017</a
+              >
+              <p class="credits__text">Jason Krüger/Wikimedia</p>
+              <p class="credits__text">Deutschland e.V.</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 4.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/server.png" alt="" class="credits__image" />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >Papaul_Tshibamba-3</a
+              >
+              <p class="credits__text">Victor Grigas</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 3.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img src="./images/stop.jpeg" alt="" class="credits__image" />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >SOPA protest in Midtown NYC</a
+              >
+              <p class="credits__text">Zachary McCune</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 4.0</a
+              >
+            </div>
+          </li>
+          <li class="credits__item">
+            <img
+              src="./images/ArtAndFeminism.jpeg"
+              alt=""
+              class="credits__image"
+            />
+            <div class="credits__details">
+              <a
+                href="#"
+                class="credits__link credits__link--top credits__link--hover"
+                >Art+Feminism Wikipedia edit-a-thon</a
+              >
+              <p class="credits__text">Jens Mohr</p>
+              <a href="#" class="credits__link credits__link--hover"
+                >CC BY-SA 3.0</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__info">
+        <div class="footer__info-item">
+          <img
+            class="logo footer__logo"
+            src="./images/Wikimedia_Foundation.png"
+            alt=""
+          />
+          <p class="footer__text">
+            The Wikimedia Foundation, Inc is a nonprofit charitable organization
+            dedicated to encouraging the growth, development and distribution of
+            free, multilingual content, and to providing the full content of
+            these wiki-based projects to the public free of charge.
+          </p>
+        </div>
+        <div class="footer__info-item footer__info-item--buttons">
+          <button class="button button--white">Careers</button
+          ><button class="button button--white">Contact</button>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__links-item">
+          <h6 class="footer__links-title">PROJECTS</h6>
+          <ul class="footer__links-grid">
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">Wikipedia</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">Wikibooks</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikiversity</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">Wikinews</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wiktionary</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikisource</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">Wikiquote</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikivoyage</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikimedia Commons</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">Wikidata</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikispecies</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#">MediaWiki</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__links-item">
+          <h6 class="footer__links-title">MOVEMENT AFFILIATES</h6>
+          <ul class="footer__links-rows">
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikimedia Chapters</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikimedia Thematic Organizations</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Wikimedia User Groups</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__links-item">
+          <h6 class="footer__links-title">OTHER</h6>
+          <ul class="footer__links-rows">
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Terms of use</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Privacy policy</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Disclaimers</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Accessibility statement</a
+              >
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link footer__link--hover" href="#"
+                >Cookie statement</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__text footer__last-item">
+        Except where otherwise noted, the content of this site is licensed under
+        a Creative Commons Attribution-ShareAlike 3.0 Unported license. Powered
+        by WordPress.com VIP. Automattic Privacy Notice.
+      </p>
+    </footer>
+  </body>
+</html>
